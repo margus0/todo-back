@@ -1,5 +1,5 @@
 const mysql = require('mysql2/promise');
-const dbConfigs = require('../dbConfigs');
+const { dbConfig } = require('../dbConfig');
 
 async function insertTodoDb(data) {
   try {
